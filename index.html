@@ -276,15 +276,16 @@
           <h4 class="display-3--title mb-5">Send me your message </h4>
           <form class="row"  target="_blank" action="https://formsubmit.co/utkarshvishwas@gmail.com" method="POST">
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+              <input type="text" placeholder="First Name" name="FirstName"  id="inputFirstName" class="shadow form-control form-control-lg">
             </div>
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+              <input type="text" placeholder="Last Name" name="LastName" id="inputLastName" class="shadow form-control form-control-lg">
             </div>
             <div class="col-lg-12 mb-3">
-              <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+              <input type="email" name="email" required placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
             </div>
             <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://portfolio.utkv.xyz/thanks.html">
             <div class="col-lg-12 mb-3">
               <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
             </div>
